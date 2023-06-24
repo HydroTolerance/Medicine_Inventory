@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.main {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 300px;
+  height: 320px;
+  /* Center child horizontally*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(228, 228, 228, 0.768) 0px 7px 29px 0px;
+
+}
+
+.profile {
+  height: 40px;
+  width: 40px;
+}
+
+.input {
+  margin-top: 20px;
+  border: 3px solid rgb(52, 147, 215);
+  border-radius: 2em;
+  height: 30px;
+  width: 200px;
+}
+
+input[type="USERNAME" ]::placeholder {
+                 
+  /* Firefox, Chrome, Opera */
+  text-align: center;
+}
+
+input[type="PASSWORD" ]::placeholder {
+                 
+  /* Firefox, Chrome, Opera */
+  text-align: center;
+}
+
+.button {
+  background-color: rgb(52, 147, 215);
+  margin-top: 15px;
+  color: black;
+  border: 2px solid rgb(52, 147, 215);
+  color: white;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10em;
+
+}
+
+.text {
+  color: rgb(52, 147, 215);
+}
+
+#dashboard_table {
+  background-color: rgb(220, 220, 220);
+  height: 100px;
+  width: auto;
+  margin-top: 0px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  
+}
+
+#searchbox {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container{
+  height: 100%;
+}
+
+.box_io{
+  padding: 30px;
+  background-color: wh;
+}
